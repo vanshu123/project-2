@@ -1,0 +1,113 @@
+    html, body {
+       max-width: 100%;
+       overflow-x: hidden;
+   }
+    h1{
+      font-size:50px;
+      font-family: 'Spirax', cursive;
+      color: red;
+      text-shadow: 4px 3px 2px green;
+    }
+    h2{
+      font-family: 'Macondo', cursive;
+    }
+    h3{
+      font-family: 'Open Sans', sans-serif;
+    }
+    h4{
+      font-family: 'Roboto', sans-serif;
+    }
+    h5{
+      font-family: 'Open Sans', sans-serif;
+    }
+    h6{
+      font-family: 'Roboto', sans-serif;
+    }
+    p{
+      font-family: 'Concert one', sans-serif;
+	  font-size: 20px;
+    }
+  		.parallax{
+        background: url("img/bgimg1.jpeg");
+        height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+    .bgimg1{
+      background: url("img/bgimg3.jpeg");
+      color: black;
+	  background-position:center;
+	  background-size:cover;
+    }
+    .bgimg2{
+      background: url("img/bgimg2.jpg");
+      color: rgb(0,70,0) ;
+	  background-position:center;
+	  background-size:cover;
+    }
+    .bgimg3{
+      background: url("img/bgimg4.jpg");
+      color: white;
+	  background-position:center;
+	  background-size:cover;
+    }
+    .bgimg4{
+      background: url("img/background (28).jpg");
+      color: black;
+    }
+    .bgimg5{
+      background: url("img/background (34).jpg");
+      color: Black;
+    }
+    .bgimg6{
+      background: url("img/bgimg5.jpg");
+      color: white ;
+    }
+    .bgimg7{
+      background: url("img/bgimg0.jpg");
+      color: white ;
+    }
+    .bgfooter{
+      background: url("img/background (37).jpg");
+      color: white;
+    }
+      .parallax .container {
+                  z-index: 3;
+                  position: absolute;
+                  width: 100%;
+                  height: 100%;
+                  display: block;
+                  top: 0;
+                }
+            .parallax .content {
+            position: relative;
+            color: white;
+            text-align: center;
+            text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+            vertical-align: center;
+            line-height: 1.7;
+            position: relative;
+            top: 20%;
+          }
+          .imgover:hover{
+            border: 5px solid white;
+          }
+          .prodover:hover{
+            border: 10px solid gray;
+          }
+          .iconover:hover{
+            border: 1px solid white;
+          }
+          ul{
+            text-transform: uppercase;
+          }
+          #map {
+        height: 300px;
+        width: 100%;
+        border-radius: 15px;
+       }
+	  
+}
